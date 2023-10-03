@@ -1,0 +1,26 @@
+$black: #020204;
+$gray: #32323D;
+$white: #FFF;
+$prime: #C7A17A;
+
+$transition: ease .2s all;
+
+@mixin container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@mixin dfjcsbaic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin links {
+    color: $white;
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
